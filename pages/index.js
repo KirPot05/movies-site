@@ -5,8 +5,6 @@ import Navbar from '../components/Navbar';
 import requests from '../utils/requests';
 
 export default function Home({movies}) {
-	
-	console.log(movies?.results);
 	return (
 		<div>
 
